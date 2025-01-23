@@ -17,6 +17,8 @@ public partial class Product
     public int ProductId { get; set; }
 
     [Column(TypeName = "nvarchar (40)")]
+    [StringLength(40)]
+    [Required]
     public string ProductName { get; set; } = null!;
 
     [Column(TypeName = "INT")]
@@ -26,10 +28,11 @@ public partial class Product
     public int? CategoryId { get; set; }
 
     [Column(TypeName = "nvarchar (20)")]
+    [StringLength(20)]
     public string? QuantityPerUnit { get; set; }
 
     [Column(TypeName = "money")]
-    public double? UnitPrice { get; set; }
+    public decimal? UnitPrice { get; set; }
 
     [Column(TypeName = "smallint")]
     public short? UnitsInStock { get; set; }

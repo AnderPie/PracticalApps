@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.EntityModels.Sqlite", "Northwind.EntityModels.Sqlite\Northwind.EntityModels.Sqlite.csproj", "{D0B2A7F0-661F-40C3-A280-89B26AACE50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.DataContext.Sqlite", "Northwind.DataContext.Sqlite\Northwind.DataContext.Sqlite.csproj", "{40A272DA-E542-4101-B8B9-EE04EE9A44C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.UnitTests", "Northwind.UnitTests\Northwind.UnitTests.csproj", "{A8C40000-9695-4E84-98BA-6E43345D3F41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D0B2A7F0-661F-40C3-A280-89B26AACE50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B2A7F0-661F-40C3-A280-89B26AACE50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0B2A7F0-661F-40C3-A280-89B26AACE50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A272DA-E542-4101-B8B9-EE04EE9A44C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A272DA-E542-4101-B8B9-EE04EE9A44C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A272DA-E542-4101-B8B9-EE04EE9A44C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A272DA-E542-4101-B8B9-EE04EE9A44C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C40000-9695-4E84-98BA-6E43345D3F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C40000-9695-4E84-98BA-6E43345D3F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C40000-9695-4E84-98BA-6E43345D3F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C40000-9695-4E84-98BA-6E43345D3F41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,8 +10,10 @@ namespace Northwind.EntityModels;
 public partial class Territory
 {
     [Column(TypeName = "nvarchar] (20")]
+    [Required]
     public string TerritoryId { get; set; } = null!;
 
+    [Required]
     [Column(TypeName = "nchar] (50")]
     public string TerritoryDescription { get; set; } = null!;
 

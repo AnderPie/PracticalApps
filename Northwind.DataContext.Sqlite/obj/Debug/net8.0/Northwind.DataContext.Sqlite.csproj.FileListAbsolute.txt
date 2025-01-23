@@ -1,0 +1,16 @@
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\bin\Debug\net8.0\Northwind.DataContext.Sqlite.deps.json
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\bin\Debug\net8.0\Northwind.DataContext.Sqlite.dll
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\bin\Debug\net8.0\Northwind.DataContext.Sqlite.pdb
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\bin\Debug\net8.0\Northwind.EntityModels.Sqlite.dll
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\bin\Debug\net8.0\Northwind.EntityModels.Sqlite.pdb
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\obj\Debug\net8.0\Northwind.DataContext.Sqlite.csproj.AssemblyReference.cache
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\obj\Debug\net8.0\Northwind.DataContext.Sqlite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\obj\Debug\net8.0\Northwind.DataContext.Sqlite.AssemblyInfoInputs.cache
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\obj\Debug\net8.0\Northwind.DataContext.Sqlite.AssemblyInfo.cs
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\obj\Debug\net8.0\Northwind.DataContext.Sqlite.csproj.CoreCompileInputs.cache
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\obj\Debug\net8.0\Northwind.DataContext.Sqlite.sourcelink.json
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\obj\Debug\net8.0\Northwin.446D235C.Up2Date
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\obj\Debug\net8.0\Northwind.DataContext.Sqlite.dll
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\obj\Debug\net8.0\refint\Northwind.DataContext.Sqlite.dll
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\obj\Debug\net8.0\Northwind.DataContext.Sqlite.pdb
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.DataContext.Sqlite\obj\Debug\net8.0\ref\Northwind.DataContext.Sqlite.dll
