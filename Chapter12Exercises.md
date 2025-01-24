@@ -27,13 +27,9 @@ Domain: MyDomain.com
 Port Number: When in production, 80 for http: and 443 for https. These ports are inferred from the scheme. During development, other port numbers  can be used.
 
 Also, a cool table of the dimensions of this project:
-
 | Name    | Ports     | Description    |
 | ------- | ------------ | ------- |
 | *Northwind.Common* | **na** | `A class library for common types like interfaces, enums, classes, records and structs, used across multiple projects.` |
-
-
-
 Path: relative path to resource 
 Query string: A way to pass parameter values, for example, ?country=Germany&searchtext=shoes. Note the use of ? for query
 Fragment: This is a reference to an element id on the page #toc
@@ -46,4 +42,4 @@ Debug in Javascript
 CSS - Style style style
 HTML - Present the web page over HTTP
 JavaScript - Handle client side interactions
-
+## 
