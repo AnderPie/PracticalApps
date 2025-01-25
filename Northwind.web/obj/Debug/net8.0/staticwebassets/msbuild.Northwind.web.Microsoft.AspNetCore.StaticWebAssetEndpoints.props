@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Northwind.web/index.1a29glefhu.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1a29glefhu"},{"Name":"integrity","Value":"sha256-N2iuMMEcRUjrSt1PPWZ159rRHAXwJScPm/6p8tMldWk="},{"Name":"label","Value":"_content/Northwind.web/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1066"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022N2iuMMEcRUjrSt1PPWZ159rRHAXwJScPm/6p8tMldWk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 23:26:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Northwind.web/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-N2iuMMEcRUjrSt1PPWZ159rRHAXwJScPm/6p8tMldWk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1066"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022N2iuMMEcRUjrSt1PPWZ159rRHAXwJScPm/6p8tMldWk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 23:26:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

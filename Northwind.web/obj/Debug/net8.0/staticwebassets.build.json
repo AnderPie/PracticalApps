@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "xjN0XQ/on5nm9kwpzeFiCEU3QSteGK95fgfiF14l7RQ=",
+  "Hash": "fhdOkEr7GybpPDehynt8Wau2Jrq8X96aMKQFPnf1iTM=",
   "Source": "Northwind.web",
   "BasePath": "_content/Northwind.web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Northwind.web\\wwwroot",
+      "Source": "Northwind.web",
+      "ContentRoot": "C:\\Users\\fuzzy\\Desktop\\csdotnet\\PracticalApps\\Northwind.web\\wwwroot\\",
+      "BasePath": "_content/Northwind.web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\fuzzy\\Desktop\\csdotnet\\PracticalApps\\Northwind.web\\wwwroot\\index.html",
+      "SourceId": "Northwind.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fuzzy\\Desktop\\csdotnet\\PracticalApps\\Northwind.web\\wwwroot\\",
+      "BasePath": "_content/Northwind.web",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1a29glefhu",
+      "Integrity": "N2iuMMEcRUjrSt1PPWZ159rRHAXwJScPm/6p8tMldWk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.1a29glefhu.html",
+      "AssetFile": "C:\\Users\\fuzzy\\Desktop\\csdotnet\\PracticalApps\\Northwind.web\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1066"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N2iuMMEcRUjrSt1PPWZ159rRHAXwJScPm/6p8tMldWk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:26:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1a29glefhu"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N2iuMMEcRUjrSt1PPWZ159rRHAXwJScPm/6p8tMldWk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\fuzzy\\Desktop\\csdotnet\\PracticalApps\\Northwind.web\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1066"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N2iuMMEcRUjrSt1PPWZ159rRHAXwJScPm/6p8tMldWk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:26:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N2iuMMEcRUjrSt1PPWZ159rRHAXwJScPm/6p8tMldWk="
+        }
+      ]
+    }
+  ]
 }

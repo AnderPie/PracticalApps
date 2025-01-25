@@ -1,0 +1,25 @@
+﻿@page
+@* Comments are written within these tags. *@
+@* Razor pages and Razor views have the same .cshtml extension, but only razor pages use the @page declaration*@
+@* You use @ to specify razor code. *@
+@functions
+{
+    public string? DayName {get; set;}
+    public void OnGet()
+    {
+        ViewData["Title"] = "Northwind B2B";
+        DayName = DateTime.Now.ToString("dddd");
+    }
+}
+@* When you define properties in the functions block, you are writing an auto-generated class named Pages_<razorPageName>. 
+    That class has a property named Model that represents itself (seems a bit circular but OK). 
+    You can refer to the properties specified in functions with @YourProperty @this.YourProperty or @Model.YourProperty*@
+<div class="jumbotron">
+    <h1 class="display-3">Welcome to Northwind B2B</h1>
+    <p class="lead">We supply products to our customers</p>
+    <hr />
+    <p>It's @DayName! Our customers include restraurants, hotels, and cruise lines. We do not sell directly to consumers.</p>
+    <p>
+        <a class="btn btn-primary" href="suppliers">Learn more about our suppliers</a>
+    </p>
+</div>

@@ -1,6 +1,9 @@
+#region Configure the web server host and services
+// Adds model binding, auth, anti-forgery, and ASP.NET Core Razor Pages
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddRazorPages();
 var app = builder.Build();
-
+#endregion
 
 #region Configure the HTTP pipeline and routes
 if (!app.Environment.IsDevelopment())
@@ -9,7 +12,11 @@ if (!app.Environment.IsDevelopment())
     //app.UseDeveloperExceptionPage(); Executed automatically in .NET6 and greater
 }
 app.UseHttpsRedirection(); // Forces use of more secure https if browser allows 
-app.MapGet("/", () => $"Environment is {app.Environment.EnvironmentName}!");
+
+app.UseDefaultFiles(); //index.html, default.html etc.
+app.UseStaticFiles(); // So that the static 'index.html' file we wrote can be served
+app.MapRazorPages(); // To use our razor pages in pages
+app.MapGet("/hello", () => $"Hello. Environment is {app.Environment.EnvironmentName}!");
 #endregion
 
 
@@ -17,4 +24,3 @@ app.MapGet("/", () => $"Environment is {app.Environment.EnvironmentName}!");
 app.Run(); // This is a thread blocking call
 WriteLine("This executes after the web server has stopped!");
 
-// Let off at the top of page 665

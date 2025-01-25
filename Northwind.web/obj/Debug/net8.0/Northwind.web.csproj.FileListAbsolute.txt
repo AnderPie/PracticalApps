@@ -28,3 +28,6 @@ C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\obj\Debug\net8.0\ref
 C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\obj\Debug\net8.0\Northwind.web.pdb
 C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\obj\Debug\net8.0\Northwind.web.genruntimeconfig.cache
 C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\obj\Debug\net8.0\ref\Northwind.web.dll
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\bin\Debug\net8.0\Northwind.web.staticwebassets.runtime.json
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\obj\Debug\net8.0\Northwind.web.RazorAssemblyInfo.cache
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\obj\Debug\net8.0\Northwind.web.RazorAssemblyInfo.cs
