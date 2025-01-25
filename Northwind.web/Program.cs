@@ -1,7 +1,10 @@
+using Northwind.EntityModels; // To use our database context!
+
 #region Configure the web server host and services
 // Adds model binding, auth, anti-forgery, and ASP.NET Core Razor Pages
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
+builder.Services.AddNorthwindContext(); //Register the Northwind database context class
 var app = builder.Build();
 #endregion
 
