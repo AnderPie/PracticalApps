@@ -19,6 +19,7 @@ if (!app.Environment.IsDevelopment())
 /*
  * Implementing an anonymous inline delegate as middleware to intercept HTTP request and responses.
  */
+
 app.Use(async (HttpContext context, Func<Task> next) =>
 {
     RouteEndpoint? rep = context.GetEndpoint() as RouteEndpoint;
