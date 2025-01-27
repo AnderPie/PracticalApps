@@ -66,3 +66,7 @@ C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\bin\Debug\net8.0\Nor
 C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\bin\Debug\net8.0\Northwind.EntityModels.Sqlite.pdb
 C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\obj\Debug\net8.0\Northwind.web.csproj.AssemblyReference.cache
 C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\obj\Debug\net8.0\Northwin.9652D168.Up2Date
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\bin\Debug\net8.0\Northwind.Razor.Employees.staticwebassets.endpoints.json
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\bin\Debug\net8.0\Northwind.Razor.Employees.dll
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\bin\Debug\net8.0\Northwind.Razor.Employees.pdb
+C:\Users\fuzzy\Desktop\csdotnet\PracticalApps\Northwind.web\obj\Debug\net8.0\Northwind.web.MvcApplicationPartsAssemblyInfo.cs

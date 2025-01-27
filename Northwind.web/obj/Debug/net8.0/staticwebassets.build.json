@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "fhdOkEr7GybpPDehynt8Wau2Jrq8X96aMKQFPnf1iTM=",
+  "Hash": "kvNYgXXFrGBUy6V08LsW+xEJO/MX4K0pgDBwtKlv0jE=",
   "Source": "Northwind.web",
   "BasePath": "_content/Northwind.web",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\fuzzy\\Desktop\\csdotnet\\PracticalApps\\Northwind.Razor.Employees\\Northwind.Razor.Employees.csproj",
+      "Version": 2,
+      "Source": "Northwind.Razor.Employees",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "Northwind.web\\wwwroot",

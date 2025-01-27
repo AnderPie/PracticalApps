@@ -509,6 +509,22 @@
         "runtime": {
           "bin/placeholder/Northwind.EntityModels.Sqlite.dll": {}
         }
+      },
+      "Northwind.Razor.Employees/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Northwind.DataContext.Sqlite": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Northwind.Razor.Employees.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Razor.Employees.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -1208,11 +1224,17 @@
       "type": "project",
       "path": "../Northwind.EntityModels.Sqlite/Northwind.EntityModels.Sqlite.csproj",
       "msbuildProject": "../Northwind.EntityModels.Sqlite/Northwind.EntityModels.Sqlite.csproj"
+    },
+    "Northwind.Razor.Employees/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.Razor.Employees/Northwind.Razor.Employees.csproj",
+      "msbuildProject": "../Northwind.Razor.Employees/Northwind.Razor.Employees.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Northwind.DataContext.Sqlite >= 1.0.0"
+      "Northwind.DataContext.Sqlite >= 1.0.0",
+      "Northwind.Razor.Employees >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1250,6 +1272,9 @@
           "projectReferences": {
             "C:\\Users\\fuzzy\\Desktop\\csdotnet\\PracticalApps\\Northwind.DataContext.Sqlite\\Northwind.DataContext.Sqlite.csproj": {
               "projectPath": "C:\\Users\\fuzzy\\Desktop\\csdotnet\\PracticalApps\\Northwind.DataContext.Sqlite\\Northwind.DataContext.Sqlite.csproj"
+            },
+            "C:\\Users\\fuzzy\\Desktop\\csdotnet\\PracticalApps\\Northwind.Razor.Employees\\Northwind.Razor.Employees.csproj": {
+              "projectPath": "C:\\Users\\fuzzy\\Desktop\\csdotnet\\PracticalApps\\Northwind.Razor.Employees\\Northwind.Razor.Employees.csproj"
             }
           }
         }

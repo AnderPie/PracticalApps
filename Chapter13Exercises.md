@@ -72,3 +72,4 @@ services.AddDbContext<YourDbContextClass>(options =>
 
 ## How can you resuse Razor Pages with ASP.NET Core 2.2 or later?
 You can make use of shared layouts, partial views (Razor views rendered within other views) and even ViewComponents.
+You can also compile a class library from razor pages for reuse in other projects.

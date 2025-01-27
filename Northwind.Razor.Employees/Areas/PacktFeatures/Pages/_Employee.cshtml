@@ -1,0 +1,9 @@
+﻿@model Northwind.EntityModels.Employee
+@*Conventionally, partial views are denoted with an _BeforeTheirName.cshtml*@
+<div class="card border-dark mb-3" style="max-width: 18rem">
+    <div class="card-header">@Model?.LastName, @Model?.FirstName</div>
+    <div class="card-body text-dark">
+        <h5>@Model?.Country</h5>
+        <p>@Model?.Notes</p>
+    </div>
+</div>
