@@ -1,0 +1,11 @@
+﻿@page
+@using Northwind.EntityModels;
+@inject NorthwindContext _db
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Northwind.web.Pages.OrdersForCustomerModel
+<div class="row">
+    <h1 class="display-2">Orders for @Model._customerName</h1>
+    @foreach(Order order in Model.Orders){
+        <partial name="_Order" model="order" />
+    }
+</div>

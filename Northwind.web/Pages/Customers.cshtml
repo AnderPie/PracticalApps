@@ -1,0 +1,29 @@
+﻿@page
+@using Northwind.EntityModels; @* So that our compiler knows what the heck a Supplier is*@
+@model Northwind.web.Pages.CustomersModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div class ="row">
+    <h1 class="display-2">Customers</h1>
+    <table class="table">
+        <thead class="thead-inverse">
+            <tr>
+                <th>Company Name</th>
+                <th>Country</th>
+                <th>Contact Name</th>
+                <th>Orders</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model.Customers is not null){
+                @foreach(Customer s in Model.Customers){
+                    <tr>
+                        <td>@s.CompanyName</td>
+                        <td>@s.Country</td>
+                        <td><a href="/OrdersForCustomer?id=@s.CustomerId">@s.ContactName</a></td>
+                        <td>@Model?.Orders?.Where(o=>o.CustomerId == s.CustomerId).Count()</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

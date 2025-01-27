@@ -15,7 +15,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Northwind.DataContext.Sqlite\Northwind.DataContext.Sqlite.csproj"/>
-		<ProjectReference Include="..\Northwind.Razor.Employees\Northwind.Razor.Employees.csproj"/>
+		<ProjectReference Include="..\Northwind.DataContext.Sqlite\Northwind.DataContext.Sqlite.csproj" />
+		<ProjectReference Include="..\Northwind.Razor.Employees\Northwind.Razor.Employees.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Update="Pages\Customers.cshtml">
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
 	</ItemGroup>
 </Project>
