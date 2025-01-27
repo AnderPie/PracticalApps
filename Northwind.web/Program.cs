@@ -14,6 +14,35 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
     //app.UseDeveloperExceptionPage(); Executed automatically in .NET6 and greater
 }
+
+#region Adding an anonymous delegate as middleware
+/*
+ * Implementing an anonymous inline delegate as middleware to intercept HTTP request and responses.
+ */
+app.Use(async (HttpContext context, Func<Task> next) =>
+{
+    RouteEndpoint? rep = context.GetEndpoint() as RouteEndpoint;
+
+    if (rep is not null)
+    {
+        WriteLine($"Endpoint name: {rep.DisplayName}");
+        WriteLine($"Endpoint route pattern: {rep.RoutePattern.RawText}");
+    }
+    if (context.Request.Path == "/bonjour")
+    {
+        // If this is the path, we terminate the pipeline rather than call next delegate
+        await context.Response.WriteAsync("Bonjour Monde!");
+        return;
+    }
+    // We could modify the request before calling the next delegate
+    await next();
+    // We could modify the response after calling the next delegate
+});
+
+
+
+#endregion
+
 app.UseHttpsRedirection(); // Forces use of more secure https if browser allows 
 
 app.UseDefaultFiles(); //index.html, default.html etc.
