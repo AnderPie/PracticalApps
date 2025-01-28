@@ -1,16 +1,10 @@
 ﻿@model Northwind.EntityModels.Order
 @using Northwind.EntityModels;
 <div class="card border-dark mb-3" style="max-width: 25rem">
-    <div class="card-header">Order date: @Model?.OrderDate</div>
+    <div class="card-header">Order ID: @Model?.OrderId</div>
     <div class="card-body text-dark">
         <h5>Shipper: @Model?.ShipVia</h5>
         <p>Delivery address: @Model?.ShipAddress</p>
-        @* Not loading anything..needs to be adjusted to properly query DB for OrderDetail*@
-        @*foreach (OrderDetail detail in Model.OrderDetails){
-            <p>Something?</p>
-            <h5>@detail.Product.ProductName</h5>
-            <p>Quantity: @detail.Quantity</p>
-            <p>Cost per unit: @detail.UnitPrice</p>
-        }*@
+        <p>Order date: @Model?.OrderDate</p>
     </div>
 </div>

@@ -6,6 +6,19 @@
 <div class="row">
     <h1 class="display-2">Orders for @Model._customerName</h1>
     @foreach(Order order in Model.Orders){
-        <partial name="_Order" model="order" />
+        <div class="card border-dark mb-3" style="max-width: 25rem">
+            <div class="card-header">Order ID: @order.OrderId</div>
+            <div class="card-body text-dark">
+            <h5>Shipper: @order.ShipVia</h5>
+            <p>Delivery address: @order.ShipAddress</p>
+            <p>Order date: @order.OrderDate</p>
+            
+            @foreach (OrderDetail detail in Model.OrderDetails.Where(c=>c.OrderId==order.OrderId)){
+                <h5>@Model.GetProductName(detail.ProductId)</h5>
+                <p>Quantity: @detail.Quantity</p>
+                <p>Cost per unit: @detail.UnitPrice</p>
+            }
+            </div>
+        </div>
     }
 </div>
