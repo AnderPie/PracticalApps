@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Northwind.Mvc.Models.HomeIndexViewModel
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2 class="display-5">Visitor count: @Model.VisitorCount</h2>
+    @foreach(var category in Model.Categories){
+        <div>
+            <h2>@category.CategoryName</h2>
+            @foreach(var product in Model.Products.Where(p=>p.CategoryId==category.CategoryId)){
+                <p>@product.ProductName</p>
+            }
+        </div>
+    }
+</div>
