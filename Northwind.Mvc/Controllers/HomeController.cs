@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc; // To use Controller, IActionResult
 using Northwind.Mvc.Models; // To use ErrorViewModel
 using System.Diagnostics; // To use Activity
 using Northwind.EntityModels; // To use NorthwindDB context
+using Microsoft.EntityFrameworkCore; // To use Include method
 
 namespace Northwind.Mvc.Controllers
 {
@@ -14,6 +15,21 @@ namespace Northwind.Mvc.Controllers
         {
             _logger = logger;
             _db = db;
+        }
+
+        public IActionResult ProductDetail(int? id) // ASP.NET core uses model binding to match the id passed in the route parameter to the named id in this method.
+        {
+            if (!id.HasValue)
+            {
+                return BadRequest("You must pass a product ID in the route, for example, /Home/ProductDetail/21");
+            }
+            Product? model = _db.Products.Include(p=>p.Category).SingleOrDefault(p=>p.ProductId==id);
+            if (model == null)
+            {
+                return NotFound($"ProduftID {id} not found.");
+            }
+
+            return View(model); // Pass model to view and then return the result.
         }
 
         public IActionResult Index()
@@ -38,6 +54,25 @@ namespace Northwind.Mvc.Controllers
              */
         }
 
+        // This action will handle GET and other requests except POST
+        public IActionResult ModelBinding()
+        {
+            return View();
+        }
+
+        [HttpPost] // This action methodwill handle POST requests
+        public IActionResult ModelBinding(Thing thing)
+        {
+            HomeModelBindingViewModel model = new(
+                Thing: thing, HasErrors: !ModelState.IsValid,
+                ValidationErrors: ModelState.Values
+                    .SelectMany(state => state.Errors)
+                    .Select(error => error.ErrorMessage)
+                );
+            return View(model); // Show the model bound thing
+        }
+
+        [Route("Private")]
         public IActionResult Privacy()
         {
             return View();

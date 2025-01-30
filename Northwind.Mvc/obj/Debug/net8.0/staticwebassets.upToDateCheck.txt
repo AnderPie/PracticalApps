@@ -1,5 +1,14 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\categories.jpeg
+wwwroot\images\category1.jpeg
+wwwroot\images\category2.jpeg
+wwwroot\images\category3.jpeg
+wwwroot\images\category4.jpeg
+wwwroot\images\category5.jpeg
+wwwroot\images\category6.jpeg
+wwwroot\images\category7.jpeg
+wwwroot\images\category8.jpeg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
